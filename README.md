@@ -1,100 +1,90 @@
-# Aptitude Test Application 🎓⏱️
+# 🎓 Aptitude Test Application ⏱️  
 
-![Java](https://img.shields.io/badge/Java-blue)
+![Java](https://img.shields.io/badge/Java-17-blue)
 ![Swing](https://img.shields.io/badge/Java%20Swing-GUI-orange)
+![OOP](https://img.shields.io/badge/OOP-Object_Oriented-green)
+![File Handling](https://img.shields.io/badge/File_Handling-Disk_Storage-red)
 
-
-A Java-based desktop application designed to conduct **university aptitude tests** for students. Developed as part of my second-semester project, this application features shuffled questions, timed tests, subject-wise navigation, and result tracking. 
-
----
-
-## 📌 Table of Contents
-- [Project Overview](#-project-overview)
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Installation](#-installation)
-- [Usage](#-usage)
----
-
-## 🚀 Project Overview
-
-This application simulates a university aptitude test environment with **four core subjects**:  
-🔹 Computer Science  
-🔹 Physics  
-🔹 Mathematics  
-🔹 English  
-
-Students can take the test within a time limit, navigate between subjects, and view their results with a detailed performance breakdown. The project emphasizes **user experience**, **data integrity**, and **efficient problem-solving**.
+A **Java-based desktop application** designed to conduct **university aptitude tests** for students. Developed as part of my **second-semester project**, this application features:  
+- **Shuffled Questions**  
+- **Timer-Based Testing**  
+- **Subject-Wise Navigation**  
+- **Result Calculation & Tracking**  
 
 ---
 
-## 🌟 Features
+## 📌 Table of Contents  
+- [🚀 Project Overview](#-project-overview)  
+- [🌟 Features](#-features)  
+- [💻 Technologies Used](#-technologies-used)  
+- [📥 Installation](#-installation)  
+ 
+---
 
-### 1. **Question Shuffling**  
-   - Questions and answers are shuffled within each subject to ensure a unique test experience every time.  
-   - Maintains alignment between questions and their correct answers for accurate scoring.
+## 🚀 Project Overview  
 
-### 2. **Timer-Based Test**  
-   - A 120-second timer ensures students complete the test within the allocated time.  
-   - Auto-submits the test when time expires.
+This application **simulates a university aptitude test** environment with **four core subjects**:  
 
-### 3. **Subject-Wise Navigation**  
-   - Navigate seamlessly between subjects using the **"Next Subject"** button.  
-   - Track progress with a clear subject label.
+📌 **Computer Science**  
+📌 **Physics**  
+📌 **Mathematics**  
+📌 **English**  
 
-### 4. **Student-Friendly Interface**  
-   - Clean UI with radio buttons for answer selection.  
-   - Buttons like **Next**, **Back**, and **Help** enhance usability.  
-
-### 5. **Result Calculation & Database**  
-   - Scores are calculated based on correct answers and saved to a file-based database.  
-   - Results include a **subject-wise breakdown** (e.g., 5/6 in Computer Science).
-
-### 6. **Controlled Submission**  
-   - Tests can only be submitted via the **"Submit"** button or timer expiration.  
-   - Prevents accidental submissions.
+Students take a **timed** test, navigate between subjects, and view their **performance breakdown**. The project focuses on:  
+✅ **User experience**  
+✅ **Data integrity**  
+✅ **Efficient problem-solving**  
 
 ---
 
-## 💻 Technologies Used
-- **Java Swing**: For building the graphical user interface (GUI).  
-- **Java AWT**: For event handling and layout management.  
-- **File Handling**: To save and retrieve student results.  
-- **OOP Principles**: For modular, maintainable, and scalable code.  
+## 🌟 Features  
+
+### 🔀 1. **Randomized Questions**  
+- Ensures a **unique test experience** for each attempt.  
+- **Shuffles both questions and answer options** dynamically.  
+
+### ⏳ 2. **Timer-Based Test**  
+- **120-second timer** to maintain test discipline.  
+- **Auto-submission** when the time expires.  
+
+### 📚 3. **Subject-Wise Navigation**  
+- Move between subjects using **"Next Subject"**.  
+- **Clear subject labels** to track progress.  
+
+### 🖥️ 4. **Student-Friendly Interface**  
+- **Clean UI** with radio buttons for answer selection.  
+- Buttons like **Next, Back, and Help** for easy navigation.  
+
+### 📊 5. **Automated Result Calculation**  
+- **Correct answers are matched** against stored solutions.  
+- **Subject-wise score breakdown** displayed in results.  
+
+### 🛡️ 6. **Controlled Submission**  
+- Tests can only be submitted via **"Submit"** or **time expiration**.  
+- **Prevents accidental submissions**.  
 
 ---
 
-## 📥 Installation
+## 💻 Technologies Used  
 
-1. **Prerequisites**:  
-   - Ensure Java JDK 17+ is installed.  
-   - Clone the repository:  
-     ```bash
-     git clone https://github.com/your-username/university-aptitude-test.git
-     ```
-
-2. **Compile & Run**:  
-   - Navigate to the project directory.  
-   - Compile the Java files:  
-     ```bash
-     javac Test.java
-     ```
-   - Run the application:  
-     ```bash
-     java Test
-     ```
+| Technology | Purpose |
+|------------|---------|
+| **Java Swing** | GUI development |
+| **Java AWT** | Event handling & layout management |
+| **File Handling** | Store & retrieve results |
+| **OOP Principles** | Maintainable & scalable code |
 
 ---
 
-## 🖥️ Usage
+## 📥 Installation  
 
-1. **Start the Test**:  
-   - Enter your name and roll number (dummy values for demonstration).  
-2. **Navigate the Test**:  
-   - Use **Next** and **Back** to move between questions.  
-   - Switch subjects with **Next Subject**.  
-3. **Submit**:  
-   - Click **Submit** to end the test manually or wait for the timer.  
-4. **View Results**:  
-   - Results are displayed with a subject-wise scorecard and saved to the database.
+### ✅ Prerequisites  
+- **Java JDK 17+** must be installed.  
+- **Git** must be installed (for cloning).  
 
+### 🚀 Steps to Run  
+
+1️⃣ **Clone the repository**  
+```bash
+git clone https://github.com/huzaifa157/university-aptitude-test.git
+cd university-aptitude-test
